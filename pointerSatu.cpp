@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
 
-
-        void showNim() {
-            cout << "No Induk = " << nim << endl;
-        }
-};
+class mahasiswa {
+    public:
+        int nim;
+       
 
 int main() {
     mahasiswa mhs{1}; // Object mhs
