@@ -9,10 +9,8 @@ class mahasiswa {
         friend void setNama(mahasiswa &a, string);
 };
 
-
-
-int main() {
-    mahasiswa joko;
-    setNama(joko, "Kairi Kumar");
-    return 0;
+void setNama(mahasiswa &a, string b) {
+    a.nama = b;
+    cout << a.nama;
 }
+
